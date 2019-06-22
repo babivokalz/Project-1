@@ -38,6 +38,7 @@ User can view book covers, movie covers, and all suggestions.
 - Foundation
 - HTML
 - JavaScript
+- Tastedive
 - jQuery
 - OMDB API
 - Google Books API
