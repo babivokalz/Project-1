@@ -4,4 +4,6 @@
 
 body {
   background-color: black;
+  background-image: url("../images/bookbackgound.jpg");
+  background-size: cover;
 }
