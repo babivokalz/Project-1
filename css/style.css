@@ -19,3 +19,34 @@ nav .nav-wrapper {
   position: relative;
   height: 100%;
 }
+
+@media screen and (max-width: 980px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #333;
+    background-image: none;
+  }
+
+  .wrapper {
+    width: 600px;
+  }
+}
