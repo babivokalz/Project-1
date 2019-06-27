@@ -3,3 +3,5 @@ let search = "Ender's Game";
 
 $("body").append(movieInfo(search));
 $("body").append(bookInfo(search));
+
+// creating a Modal
