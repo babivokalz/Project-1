@@ -5,6 +5,18 @@ body {
   background-repeat: no-repeat;
 }
 
+.jumbotron {
+  background: rgba(204, 204, 204, 0.6);
+}
+
+.display-4 {
+  color: darkblue;
+}
+
+.lead {
+  color: darkblue;
+}
+
 input[type="text"] {
   display: flex;
   margin: auto;
@@ -24,4 +36,35 @@ input[type="text"] {
 
 input[type="text"]:focus {
   width: 50%;
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #333;
+    background-image: none;
+  }
+
+  .wrapper {
+    width: 600px;
+  }
 }
