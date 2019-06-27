@@ -50,6 +50,8 @@ let bookInfo = function(search) {
       div.append(bit);
     });
 
-    $(".container").append(div);
+    div.css("border", "5px solid red");
+
+    $("#test").append(div);
   });
 };

@@ -11,6 +11,7 @@ let movieInfo = function(search) {
     url: queryURL,
     method: "GET"
   }).then(function(data) {
+    console.log(data);
     // Find and store relevent information
     let title = $("<div>")
       .attr("id", "title")
@@ -89,6 +90,8 @@ let movieInfo = function(search) {
       div.append(bit);
     });
 
-    $(".container").append(div);
+    div.css("border", "5px solid blue");
+
+    $("#test").append(div);
   });
 };
