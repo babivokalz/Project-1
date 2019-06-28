@@ -1,4 +1,4 @@
-# Entertainment Search
+# screen.play()
 
 ## Team Members
 
@@ -13,9 +13,7 @@ Creating a GUI that allows the user to search for multiple platforms of entertai
 ## API's Used:
 
 - Google Books
-- Penguin Random House
 - OMDB
-- Open Library
 
 ## Sketch of the Design
 
@@ -35,13 +33,11 @@ User can view book covers, movie covers, and all suggestions.
 
 ## Technologies Used
 
-- Foundation
 - HTML
+- Bootstrap
 - JavaScript
-- Tastedive
+- Tastedive\* (bonus)
 - jQuery
 - OMDB API
 - Google Books API
-- Open Library API
-- Penguin Random House API
 - Firebase

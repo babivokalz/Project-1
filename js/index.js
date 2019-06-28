@@ -1,7 +1,10 @@
-// TODO: Make the search variable equal to user input
-let search = "Ender's Game";
+$("#form").submit(function(event) {
+  event.preventDefault();
 
-$("body").append(movieInfo(search));
-$("body").append(bookInfo(search));
+  let search = $("#input")
+    .val()
+    .trim();
 
-// creating a Modal
+  bookInfo(search);
+  movieInfo(search);
+});
