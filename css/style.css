@@ -5,6 +5,18 @@ body {
   background-repeat: no-repeat;
 }
 
+.jumbotron {
+  background: rgba(204, 204, 204, 0.6);
+}
+
+.display-4 {
+  color: darkblue;
+}
+
+.lead {
+  color: darkblue;
+}
+
 input[type="text"] {
   display: flex;
   margin: auto;
@@ -17,7 +29,7 @@ input[type="text"] {
   background-image: url("../images/searchicon.png");
   background-position: 10px 10px;
   background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
+  padding: 12px 20px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
@@ -26,3 +38,33 @@ input[type="text"]:focus {
   width: 50%;
 }
 
+@media screen and (max-width: 980px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #333;
+    background-image: none;
+  }
+
+  .wrapper {
+    width: 600px;
+  }
+}

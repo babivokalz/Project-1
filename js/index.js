@@ -1,8 +1,10 @@
-// TODO: Make this happen on button press
-$(document).ready(function() {
-  // TODO: Make the search variable equal to user input
-  let search = "Ender's Game";
+$("#form").submit(function(event) {
+  event.preventDefault();
 
-  movieInfo(search);
+  let search = $("#input")
+    .val()
+    .trim();
+
   bookInfo(search);
+  movieInfo(search);
 });
