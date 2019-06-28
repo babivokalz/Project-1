@@ -39,6 +39,11 @@ input[type="text"]:focus {
   width: 50%;
 }
 
+.modal-body {
+  height: 20em;
+  overflow-y: auto;
+}
+
 @media screen and (max-width: 980px) {
   body {
     background-color: #333;
