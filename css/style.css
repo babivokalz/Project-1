@@ -37,8 +37,12 @@ input[type="text"]:focus {
 }
 
 .modal-body {
-  height: 20em;
-  overflow-y: auto;
+  max-height: calc(100% - 120px);
+  overflow-y: scroll;
+}
+
+.modal-content {
+  height: 90%;
 }
 
 @media screen and (max-width: 980px) {
