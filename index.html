@@ -91,7 +91,31 @@
             </button>
           </div>
           <div class="modal-body">
-            Your results go here
+            Your results go here... Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nullam non libero ac odio laoreet pulvinar.
+            Maecenas nec accumsan mi. Morbi dictum augue neque, a tempus turpis
+            suscipit et. In vulputate eros et diam imperdiet, et rhoncus dui
+            eleifend. Ut a molestie massa, eget tempor est. Maecenas urna
+            libero, varius vitae lacus sit amet, efficitur tincidunt ipsum.
+            Suspendisse sit amet turpis mi. Donec fermentum hendrerit dapibus.
+            Pellentesque malesuada vel ex id placerat. Cras ac mauris quis orci
+            scelerisque interdum et eget est. Vestibulum vitae hendrerit mi, nec
+            cursus arcu. Aliquam interdum neque vel suscipit laoreet. Sed
+            mollis, ligula non porta fringilla, eros felis convallis lectus, id
+            malesuada urna nunc volutpat turpis. Integer vitae eros vitae velit
+            cursus varius vitae vitae sapien. Ut dapibus sagittis mi eget
+            efficitur. Proin pretium mattis tincidunt. Praesent elit libero,
+            consectetur et dictum eget, consectetur in lectus. Vestibulum quis
+            varius lorem. Maecenas in nibh urna. Nullam vel ornare nisl. Morbi a
+            diam eu magna mollis suscipit nec tempor elit. Donec porttitor nisl
+            et lacus ornare maximus sed sit amet neque. Sed consequat, neque vel
+            tempus sodales, ipsum magna blandit libero, vel dictum lacus ipsum
+            et urna. Vestibulum placerat arcu euismod augue laoreet, in dictum
+            orci egestas. Interdum et malesuada fames ac ante ipsum primis in
+            faucibus. Vestibulum et libero eu orci ornare posuere. Fusce
+            hendrerit dictum mi, id ornare nibh tristique nec. Proin sed magna
+            blandit nisl fermentum molestie eu tristique est. In quis ante vitae
+            quam maximus gravida id aliquam justo.
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">
@@ -103,9 +127,12 @@
     </div>
 
     <script>
-      $(document).ready(function(){
+      $(document).ready(function() {
         $("#myButton").click(function() {
-        $("#myModal").modal({ backdrop: "static" });
+          $("#myModal")
+            .removeData("modal")
+            .modal({ backdrop: "static" });
+        });
       });
     </script>
 

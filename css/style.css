@@ -25,3 +25,8 @@ input[type="text"] {
 input[type="text"]:focus {
   width: 50%;
 }
+
+.modal-body {
+  height: 20em;
+  overflow-y: auto;
+}
