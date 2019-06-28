@@ -13,6 +13,8 @@ body {
 .lead {
   color: darkblue;
   text-align: center;
+  text-shadow: -0.5px 0 whitesmoke, 0 0.5px whitesmoke, 0.5px 0 whitesmoke,
+    0 -0.5px whitesmoke;
 }
 
 input[type="text"] {
