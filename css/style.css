@@ -9,12 +9,10 @@ body {
   background: rgba(204, 204, 204, 0.6);
 }
 
-.display-4 {
-  color: darkblue;
-}
-
+.display-4,
 .lead {
   color: darkblue;
+  text-align: center;
 }
 
 input[type="text"] {
