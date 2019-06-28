@@ -18,6 +18,13 @@
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Link to Font Awesome-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -30,6 +37,7 @@
       rel="stylesheet"
     />
 
+    <!-- Compiled and minified Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -66,6 +74,87 @@
         style="font-family:Arial, FontAwesome"
       />
     </form>
+
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-toggle="modal"
+      data-target="#myModal"
+      id="myButton"
+    >
+      Search
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="youMightLike"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="youMightLike">
+              You Might Like...
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Your results go here... Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nullam non libero ac odio laoreet pulvinar.
+            Maecenas nec accumsan mi. Morbi dictum augue neque, a tempus turpis
+            suscipit et. In vulputate eros et diam imperdiet, et rhoncus dui
+            eleifend. Ut a molestie massa, eget tempor est. Maecenas urna
+            libero, varius vitae lacus sit amet, efficitur tincidunt ipsum.
+            Suspendisse sit amet turpis mi. Donec fermentum hendrerit dapibus.
+            Pellentesque malesuada vel ex id placerat. Cras ac mauris quis orci
+            scelerisque interdum et eget est. Vestibulum vitae hendrerit mi, nec
+            cursus arcu. Aliquam interdum neque vel suscipit laoreet. Sed
+            mollis, ligula non porta fringilla, eros felis convallis lectus, id
+            malesuada urna nunc volutpat turpis. Integer vitae eros vitae velit
+            cursus varius vitae vitae sapien. Ut dapibus sagittis mi eget
+            efficitur. Proin pretium mattis tincidunt. Praesent elit libero,
+            consectetur et dictum eget, consectetur in lectus. Vestibulum quis
+            varius lorem. Maecenas in nibh urna. Nullam vel ornare nisl. Morbi a
+            diam eu magna mollis suscipit nec tempor elit. Donec porttitor nisl
+            et lacus ornare maximus sed sit amet neque. Sed consequat, neque vel
+            tempus sodales, ipsum magna blandit libero, vel dictum lacus ipsum
+            et urna. Vestibulum placerat arcu euismod augue laoreet, in dictum
+            orci egestas. Interdum et malesuada fames ac ante ipsum primis in
+            faucibus. Vestibulum et libero eu orci ornare posuere. Fusce
+            hendrerit dictum mi, id ornare nibh tristique nec. Proin sed magna
+            blandit nisl fermentum molestie eu tristique est. In quis ante vitae
+            quam maximus gravida id aliquam justo.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function() {
+        $("#myButton").click(function() {
+          $("#myModal")
+            .removeData("modal")
+            .modal({ backdrop: "static" });
+        });
+      });
+    </script>
 
     <!-- JS Files -->
     <script src="js/index.js"></script>
