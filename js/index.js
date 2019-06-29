@@ -2,15 +2,7 @@ function showModal() {
   $("#myModal").modal("show");
 }
 
-function showSearchResults(e) {
-  //   $("form").after(
-  //     '<div id="showSearchResults" style="background: white">show results here</div>'
-  //   );
-  //   e.preventDefault();
-}
-
 $("#form").submit(function(event) {
-  console.log("IM RUNNING");
   event.preventDefault();
 
   $("#form").append(
@@ -25,5 +17,7 @@ $("#form").submit(function(event) {
   $("#showSearchResults").append("<div id='gap'>");
   movieInfo(search);
 });
+
+
 
 // $('.parallax-window').parallax({imageSrc: 'bookbackground.jpg'});

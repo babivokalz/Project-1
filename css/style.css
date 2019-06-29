@@ -52,12 +52,9 @@ input[type="text"]:focus {
 @media screen and (max-width: 980px) {
   body {
     width: 100%;
-    /* background-color: #333; */
+    
   }
 
-  /* .wrapper {
-    width: 600px;
-  } */
   h1 {
     text-align: center;
   }
@@ -69,12 +66,9 @@ input[type="text"]:focus {
 @media screen and (min-width: 768px) {
   body {
     width: 100%;
-    /* background-color: #333; */
+    
   }
 
-  /* .wrapper {
-    width: 600px;
-  } */
   h1 {
     text-align: center;
   }
@@ -86,13 +80,9 @@ input[type="text"]:focus {
 @media screen and (max-width: 640px) {
   body {
     width: 100%;
-    /* background-color: #333;
-    background-image: none; */
+    
   }
 
-  /* .wrapper {
-    width: 600px;
-  } */
   h1 {
     text-align: center;
   }
