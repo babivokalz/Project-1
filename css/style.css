@@ -6,19 +6,6 @@ body {
   background-attachment: fixed;
 }
 
-.jumbotron {
-  background: rgba(204, 204, 204, 0.2);
-  border-radius: 30px;
-}
-
-.display-4,
-.lead {
-  color: black;
-  text-align: center;
-  text-shadow: -0.5px 0 whitesmoke, 0 0.5px whitesmoke, 0.5px 0 whitesmoke,
-    0 -0.5px whitesmoke;
-}
-
 input[type="text"] {
   display: flex;
   margin: auto;
