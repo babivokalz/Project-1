@@ -7,13 +7,16 @@ body {
 }
 
 .jumbotron {
-  background: rgba(204, 204, 204, 0.6);
+  background: rgba(204, 204, 204, 0.2);
+  border-radius: 30px;
 }
 
 .display-4,
 .lead {
-  color: darkblue;
+  color: black;
   text-align: center;
+  text-shadow: -0.5px 0 whitesmoke, 0 0.5px whitesmoke, 0.5px 0 whitesmoke,
+    0 -0.5px whitesmoke;
 }
 
 input[type="text"] {
