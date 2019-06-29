@@ -34,9 +34,13 @@ let bookInfo = function(search) {
     let averageRating = $("<div>")
       .attr("id", "averageRating")
       .text(data.items[0].volumeInfo.averageRating);
+    let imageLinks = $("<img>")
+      .attr("id", "thumbnail")
+      .attr("src", data.items[0].volumeInfo.imageLinks.thumbnail);
 
     let information = [
       title,
+      imageLinks,
       subtitle,
       authors,
       description,
