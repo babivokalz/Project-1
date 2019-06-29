@@ -90,8 +90,6 @@ let movieInfo = function(search) {
       div.append(bit);
     });
 
-    div.css("border", "5px solid blue");
-
     $("#showSearchResults").append(div);
   });
 };
