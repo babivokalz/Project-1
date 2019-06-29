@@ -3,11 +3,10 @@ function showModal() {
 }
 
 $("#form").submit(function(event) {
-  console.log("IM RUNNING");
   event.preventDefault();
 
   $("#form").append(
-    '<div id="showSearchResults" style="background: white"></div>'
+    '<br><br><div id="showSearchResults" style="background: white"></div>'
   );
 
   let search = $("#input")
