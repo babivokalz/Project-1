@@ -12,3 +12,8 @@ $("#form").submit(function(event) {
 function showModal() {
   $("#myModal").modal("show");
 }
+
+function showSearchResults(e) {
+  $("form").after('<div style="background: white">show results here</div>');
+  e.preventDefault();
+}
