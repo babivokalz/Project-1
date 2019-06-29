@@ -1,9 +1,10 @@
 body {
   background-color: black;
   background-image: url("../images/bookbackgound.jpg");
-  background-size: cover;
-  background-repeat: repeat;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 input[type="text"] {
@@ -91,7 +92,7 @@ h1 {
   color: white;
 }
 
-/* .parallax-window {
+.parallax-window {
   min-height: 400px;
   background: transparent;
-} */
+}

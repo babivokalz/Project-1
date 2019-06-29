@@ -67,6 +67,7 @@ let movieInfo = function(search) {
 
     let information = [
       title,
+      poster,
       year,
       rated,
       released,
@@ -79,7 +80,6 @@ let movieInfo = function(search) {
       language,
       country,
       awards,
-      poster,
       rating,
       type,
       totalSeasons

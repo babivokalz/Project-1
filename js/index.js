@@ -12,7 +12,7 @@ $("#form").submit(function(event) {
   let search = $("#input")
     .val()
     .trim();
-
+  $("#showSearchResults").empty();
   bookInfo(search);
   $("#showSearchResults").append("<div id='gap'>");
   movieInfo(search);
