@@ -92,6 +92,6 @@ let movieInfo = function(search) {
 
     div.css("border", "5px solid blue");
 
-    $("#test").append(div);
+    $("#showSearchResults").append(div);
   });
 };
