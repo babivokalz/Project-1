@@ -9,8 +9,6 @@ $("#form").submit(function(event) {
   movieInfo(search);
 });
 
-// $(document).ready(function() {
-//   $("#myButton").click(function() {
 function showModal() {
   $("#myModal").modal("show");
-});
+}

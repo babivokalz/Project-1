@@ -100,10 +100,10 @@ input[type="text"]:focus {
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  color: rgb(85, 85, 85);
+  color: rgb(190, 128, 13);
   text-align: center;
   margin: 1em 0 1em 3.3em;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 100px;
   text-shadow: black;
 }
