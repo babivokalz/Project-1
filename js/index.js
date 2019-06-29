@@ -6,7 +6,7 @@ $("#form").submit(function(event) {
   event.preventDefault();
 
   $("#form").append(
-    '<div id="showSearchResults" style="background: white"></div>'
+    '<br><br><div id="showSearchResults" style="background: white"></div>'
   );
 
   let search = $("#input")
@@ -17,7 +17,5 @@ $("#form").submit(function(event) {
   $("#showSearchResults").append("<div id='gap'>");
   movieInfo(search);
 });
-
-
 
 // $('.parallax-window').parallax({imageSrc: 'bookbackground.jpg'});
