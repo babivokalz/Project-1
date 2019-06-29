@@ -52,6 +52,6 @@ let bookInfo = function(search) {
 
     div.css("border", "5px solid red");
 
-    $("#test").append(div);
+    $("#showSearchResults").append(div);
   });
 };
