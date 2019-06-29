@@ -31,6 +31,9 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!--Link to Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
 
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -50,11 +53,13 @@
     <!-- CSS Files -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    
   </head>
 
-  <body>
-    <div class="container">
+  <body class='container-fluid'>
+    <div class='row'>
+    <h1>screen.play( )</h1>
+    </div>
+    <!-- <div class="container">
       <div class="jumbotron jumbotron-fluid" class="rounded">
         <div class="container">
           <h1 class="display-4"><strong>screen.play ( )</strong></h1>
@@ -66,7 +71,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
     <form>
       <input
         type="text"
@@ -78,7 +83,7 @@
     </form>
 
     <!-- Button trigger modal -->
-    <button
+    <!-- <button
       type="button"
       class="btn btn-primary"
       data-toggle="modal"
@@ -86,10 +91,10 @@
       id="myButton"
     >
       Search
-    </button>
+    </button> -->
 
     <!-- Modal -->
-    
+
     <div
       class="modal fade"
       id="myModal"
@@ -137,14 +142,12 @@
         </div>
       </div>
     </div>
-
-    <script>
-      $(document).ready(function() {
-        $("#myButton").click(function() {
-          $("#myModal").modal({ backdrop: "static" });
-        });
-      });
-    </script>
+    <div class="footer-margin">
+          <footer>
+          <p ID='ourNames'>Joseph Vitto | Wendy Chen | Mark Bullard</p>
+          </footer>
+        </div>
+    </div>
 
     <!-- JS Files -->
     <script src="js/index.js"></script>

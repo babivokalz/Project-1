@@ -2,7 +2,8 @@ body {
   background-color: black;
   background-image: url("../images/bookbackgound.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 .jumbotron {
@@ -47,31 +48,68 @@ input[type="text"]:focus {
 
 @media screen and (max-width: 980px) {
   body {
-    background-color: #333;
+    width: 100%;
+    /* background-color: #333; */
   }
 
-  .wrapper {
+  /* .wrapper {
     width: 600px;
+  } */
+  h1 {
+    text-align: center;
+  }
+  #ourNames {
+    text-align: center;
   }
 }
 
 @media screen and (min-width: 768px) {
   body {
-    background-color: #333;
+    width: 100%;
+    /* background-color: #333; */
   }
 
-  .wrapper {
+  /* .wrapper {
     width: 600px;
+  } */
+  h1 {
+    text-align: center;
+  }
+  #ourNames {
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 640px) {
   body {
-    background-color: #333;
-    background-image: none;
+    width: 100%;
+    /* background-color: #333;
+    background-image: none; */
   }
 
-  .wrapper {
+  /* .wrapper {
     width: 600px;
+  } */
+  h1 {
+    text-align: center;
   }
+  #ourNames {
+    text-align: center;
+  }
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(85, 85, 85);
+  text-align: center;
+  margin: 1em 0 1em 3.3em;
+  font-weight: 300;
+  font-size: 100px;
+  text-shadow: black;
+}
+#ourNames {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 14em;
+  color: white;
 }
