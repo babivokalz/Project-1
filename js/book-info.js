@@ -15,25 +15,25 @@ let bookInfo = function(search) {
     // Find and store relevent information
     let title = $("<div>")
       .attr("id", "title")
-      .text(data.items[0].volumeInfo.title);
+      .text("Title: " + data.items[0].volumeInfo.title);
     let subtitle = $("<div>")
       .attr("id", "subtitle")
-      .text(data.items[0].volumeInfo.subtitle);
+      .text("Subtitle: " + data.items[0].volumeInfo.subtitle);
     let authors = $("<div>")
       .attr("id", "authors")
-      .text(data.items[0].volumeInfo.authors);
+      .text("Author(s): " + data.items[0].volumeInfo.authors);
     let description = $("<div>")
       .attr("id", "description")
-      .text(data.items[0].volumeInfo.description);
+      .text("Description: " + data.items[0].volumeInfo.description);
     let pageCount = $("<div>")
       .attr("id", "pageCount")
-      .text(data.items[0].volumeInfo.pageCount);
+      .text("Page Count: " + data.items[0].volumeInfo.pageCount);
     let catagories = $("<div>")
       .attr("id", "catagories")
-      .text(data.items[0].volumeInfo.categories);
+      .text("Genres: " + data.items[0].volumeInfo.categories);
     let averageRating = $("<div>")
       .attr("id", "averageRating")
-      .text(data.items[0].volumeInfo.averageRating);
+      .text("Rating: " + data.items[0].volumeInfo.averageRating);
     let imageLinks = $("<img>")
       .attr("id", "thumbnail")
       .attr("src", data.items[0].volumeInfo.imageLinks.thumbnail);
@@ -48,6 +48,8 @@ let bookInfo = function(search) {
       catagories,
       averageRating
     ];
+
+    div.append($("<h3>Book</h3>"));
 
     information.forEach(bit => {
       bit.attr("class", "book-info");
