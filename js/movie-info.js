@@ -92,7 +92,7 @@ let movieInfo = function(search) {
         width: "50%",
         display: "flex",
         "flex-direction": "column",
-        "text-align": "left"
+        "text-align": "center"
       });
     });
 
