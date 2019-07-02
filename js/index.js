@@ -14,7 +14,6 @@ $("#form").submit(function(event) {
     .trim();
   $("#showSearchResults").empty();
   bookInfo(search);
-  $("#showSearchResults").append("<div id='gap'>");
   movieInfo(search);
 });
 

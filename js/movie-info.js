@@ -15,55 +15,49 @@ let movieInfo = function(search) {
     // Find and store relevent information
     let title = $("<div>")
       .attr("id", "title")
-      .text(data.Title);
+      .text("Tilte: " + data.Title);
     let year = $("<div>")
       .attr("id", "year")
-      .text(data.Year);
+      .text("Released: " + data.Year);
     let rated = $("<div>")
       .attr("id", "rated")
-      .text(data.Rated);
+      .text("Rating: " + data.Rated);
     let released = $("<div>")
       .attr("id", "released")
-      .text(data.Released);
+      .text("Released: " + data.Released);
     let runtime = $("<div>")
       .attr("id", "runtime")
-      .text(data.Runtime);
+      .text("Runtime: " + data.Runtime);
     let genres = $("<div>")
       .attr("id", "genres")
-      .text(data.Genre);
+      .text("Genres: " + data.Genre);
     let director = $("<div>")
       .attr("id", "director")
-      .text(data.Director);
+      .text("Director: " + data.Director);
     let writer = $("<div>")
       .attr("id", "writer")
-      .text(data.Writer);
+      .text("Writer: " + data.Writer);
     let actors = $("<div>")
       .attr("id", "actors")
-      .text(data.Actors);
+      .text("Notable Actors: " + data.Actors);
     let plot = $("<div>")
       .attr("id", "plot")
-      .text(data.Plot);
-    let language = $("<div>")
-      .attr("id", "language")
-      .text(data.Language);
-    let country = $("<div>")
-      .attr("id", "country")
-      .text(data.Country);
+      .text("Plot: " + data.Plot);
     let awards = $("<div>")
       .attr("id", "awards")
-      .text(data.Awards);
+      .text("Awards: " + data.Awards);
     let poster = $("<img>")
       .attr("id", "poster")
       .attr("src", data.Poster);
     let rating = $("<div>")
       .attr("id", "rating")
-      .text(data.imdbRating);
-    let type = $("<div>")
-      .attr("id", "type")
-      .text(data.Type);
-    let totalSeasons = $("<div>")
-      .attr("id", "totalSeasons")
-      .text(data.totalSeasons);
+      .text("IMDB Rating: " + data.imdbRating);
+    // let type = $("<div>")
+    //   .attr("id", "type")
+    //   .text(data.Type);
+    // let totalSeasons = $("<div>")
+    //   .attr("id", "totalSeasons")
+    //   .text(data.totalSeasons);
 
     let information = [
       title,
@@ -77,13 +71,13 @@ let movieInfo = function(search) {
       writer,
       actors,
       plot,
-      language,
-      country,
       awards,
-      rating,
-      type,
-      totalSeasons
+      rating
+      // type,
+      // totalSeasons
     ];
+
+    div.append($("<h3>Movie</h3>"));
 
     information.forEach(bit => {
       bit.attr("class", "movie-info");
