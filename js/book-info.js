@@ -54,12 +54,12 @@ let bookInfo = function(search) {
     information.forEach(bit => {
       bit.attr("class", "book-info");
       div.append(bit);
-      div.css({
-        width: "50%",
-        display: "flex",
-        "flex-direction": "column",
-        "text-align": "left"
-      });
+      // div.css({
+      //   width: "50%",
+      //   display: "flex",
+      //   "flex-direction": "column",
+      //   "text-align": "left"
+      // });
     });
 
     $("#showSearchResults").append(div);
