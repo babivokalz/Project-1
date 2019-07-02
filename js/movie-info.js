@@ -3,7 +3,7 @@ let movieInfo = function(search) {
   let div = $("<div>");
 
   // Set query paramaters
-  let queryURL = "http://www.omdbapi.com/?apikey=6707b82f";
+  let queryURL = "https://www.omdbapi.com/?apikey=6707b82f";
   queryURL += "&t=" + search;
 
   // AJAX Call
