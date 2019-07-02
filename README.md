@@ -17,7 +17,7 @@ Creating a GUI that allows the user to search for multiple platforms of entertai
 
 ## Sketch of the Design
 
-There will be an interactive front-page (maybe a dashboard) for the user where there will be a search bar located in the middle of the page. There will be a header that states the name of the website and an aesthetically pleasing background that is relatable to the website. The user will be able to input whatever movie, book titles, or keyword that they’re interested in. The search will bring you to a new page where the results will be listed (similar to Google). Here the user can view the book covers, movie posters, and see the cost of the book listed. They can also choose to explore other suggestions in relation to their inputted keyword search.
+There will be an interactive front-page (maybe a dashboard) for the user where there will be a search bar located in the middle of the page. There will be a header that states the name of the website and an aesthetically pleasing background that is relatable to the website. The user will be able to input whatever movie, book titles, or keyword that they’re interested in. The search will display the results will be listed. Here the user can view the book covers, movie posters, and see the cost of the book listed. They can also choose to explore other suggestions in relation to their inputted keyword search.
 
 ## Breakdown of Tasks
 
@@ -25,7 +25,7 @@ The user inputs their searched keyword.
 
 A keyword is matched against book and movie titles and suggestions are given based on the inputted keyword.
 
-Results and suggestions are displayed on a new page in descending order based on how relatable it is to the searched keyword.
+Results and suggestions are displayed on the same page, populated through JS.
 
 User can view book covers, movie covers, and all suggestions.
 
