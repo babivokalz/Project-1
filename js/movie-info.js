@@ -15,7 +15,7 @@ let movieInfo = function(search) {
     // Find and store relevent information
     let title = $("<div>")
       .attr("id", "title")
-      .text("Tilte: " + data.Title);
+      .text("Title: " + data.Title);
     let year = $("<div>")
       .attr("id", "year")
       .text("Released: " + data.Year);
@@ -82,12 +82,11 @@ let movieInfo = function(search) {
     information.forEach(bit => {
       bit.attr("class", "movie-info");
       div.append(bit);
-      div.css({
-        width: "50%",
-        display: "flex",
-        "flex-direction": "column",
-        "text-align": "left"
-      });
+      // div.css({
+      //   display: "flex",
+      //   "flex-direction": "column",
+      //   "text-align": "left"
+      // });
     });
 
     $("#showSearchResults").append(div);
