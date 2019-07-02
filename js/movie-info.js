@@ -88,6 +88,12 @@ let movieInfo = function(search) {
     information.forEach(bit => {
       bit.attr("class", "movie-info");
       div.append(bit);
+      div.css({
+        width: "50%",
+        display: "flex",
+        "flex-direction": "column",
+        "text-align": "left"
+      });
     });
 
     $("#showSearchResults").append(div);

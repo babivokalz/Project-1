@@ -7,6 +7,16 @@ body {
   background-size: cover;
 }
 
+#showSearchResults {
+  justify-content: center;
+}
+
+#thumbnail,
+#poster {
+  width: 200px;
+  height: 225px;
+}
+
 input[type="text"] {
   display: flex;
   margin: auto;
