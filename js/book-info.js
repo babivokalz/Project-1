@@ -56,7 +56,7 @@ let bookInfo = function(search) {
         width: "50%",
         display: "flex",
         "flex-direction": "column",
-        "text-align": "center"
+        "text-align": "left"
       });
     });
 
