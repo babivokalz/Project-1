@@ -7,7 +7,7 @@ $("#form").submit(function(event) {
   event.preventDefault();
 
   $("#form").append(
-    '<div id="showSearchResults" style="background: white"></div>'
+    '<div id="showSearchResults" style="background: white; display: flex;"></div>'
   );
 
   let search = $("#input")
